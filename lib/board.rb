@@ -48,7 +48,7 @@ class Board
   end
   def remove_unit(row, column, players)
     player_1, player_2 = players
-    location = @board[row][column]
+    location = [row, column]
     @board[row][column] =
       if player_1.control_zone.include?(location)
         " #{player_1.name[0]} "

@@ -9,7 +9,7 @@ I chose to write the game implementation in ruby since it's the first programmin
 In a console that can run ruby 🤓💎 access to the folder ``lib`` inside the repo and run:
 
 ```shell
-ruby warchest_lite.rb
+ruby warchest.rb
 ```
 ## License
 
