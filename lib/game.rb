@@ -101,7 +101,7 @@ class Game
     player.hand += player.bag.shuffle!.pop(3 - current_chips)
   end
   def refill_bag(player)
-    player.bag.push(player.discard_pile).flatten
+    player.bag = (player.bag.push(player.discard_pile)).flatten
   end
   def distribute_player_chips(types, player)
     types.each do |type, quantity|
